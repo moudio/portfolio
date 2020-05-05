@@ -1,0 +1,94 @@
+.project {
+  display: flex;
+  background: white;
+  max-width: 90%;
+  margin: 30px auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  min-height: 500px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.project:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+}
+.project-description {
+  width: 60%;
+}
+
+.project-description p {
+  font-size: 23px;
+  padding: 15px;
+}
+.project-picture {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.project img {
+  width: 80%;
+  height: 400px;
+}
+
+.project ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 54%;
+  margin: 0 auto;
+}
+.project ul li {
+  padding: 5px 8px;
+  border-radius: 3px;
+  margin: 5px;
+  background-color: #4c5357;
+  color: white;
+}
+
+.project-title {
+  font-size: 2.5rem;
+}
+
+.description-content {
+  margin-top: 50px;
+}
+
+.links {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.links a {
+  text-decoration: none;
+  color: #797878;
+  margin: 0 20px;
+  font-size: 20px;
+  padding: 10px 0;
+  position: relative;
+}
+.links a:active,
+.links a:hover {
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 1s;
+}
+.demo,
+.source {
+  margin: 10px;
+}
+
+@media screen and(min-width: 1100px) {
+  .project {
+    width: 40%;
+  }
+}

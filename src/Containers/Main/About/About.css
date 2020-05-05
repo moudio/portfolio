@@ -1,0 +1,21 @@
+#about-me img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#about-me {
+  width: 55%;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+#about-me .text {
+  margin: 20px 0;
+}
+
+.technologies-div {
+  font-size: 60px;
+}

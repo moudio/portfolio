@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "//mouhadiouf.github.io/portfolio/static/css/main.df2da710.chunk.css",
+    "main.js": "//mouhadiouf.github.io/portfolio/static/js/main.a0a314b1.chunk.js",
+    "main.js.map": "//mouhadiouf.github.io/portfolio/static/js/main.a0a314b1.chunk.js.map",
+    "runtime-main.js": "//mouhadiouf.github.io/portfolio/static/js/runtime-main.be5266cb.js",
+    "runtime-main.js.map": "//mouhadiouf.github.io/portfolio/static/js/runtime-main.be5266cb.js.map",
+    "static/js/2.f56c261b.chunk.js": "//mouhadiouf.github.io/portfolio/static/js/2.f56c261b.chunk.js",
+    "static/js/2.f56c261b.chunk.js.map": "//mouhadiouf.github.io/portfolio/static/js/2.f56c261b.chunk.js.map",
+    "index.html": "//mouhadiouf.github.io/portfolio/index.html",
+    "precache-manifest.11da447f2c30a6cbb3a283c7325b128a.js": "//mouhadiouf.github.io/portfolio/precache-manifest.11da447f2c30a6cbb3a283c7325b128a.js",
+    "service-worker.js": "//mouhadiouf.github.io/portfolio/service-worker.js",
+    "static/css/main.df2da710.chunk.css.map": "//mouhadiouf.github.io/portfolio/static/css/main.df2da710.chunk.css.map",
+    "static/js/2.f56c261b.chunk.js.LICENSE.txt": "//mouhadiouf.github.io/portfolio/static/js/2.f56c261b.chunk.js.LICENSE.txt",
+    "static/media/Battleship.jpg": "//mouhadiouf.github.io/portfolio/static/media/Battleship.77c55f9e.jpg",
+    "static/media/Blackjack.jpg": "//mouhadiouf.github.io/portfolio/static/media/Blackjack.1d48a301.jpg",
+    "static/media/Bookstore.png": "//mouhadiouf.github.io/portfolio/static/media/Bookstore.85e7011b.png",
+    "static/media/Calculator.jpg": "//mouhadiouf.github.io/portfolio/static/media/Calculator.c0e040bf.jpg",
+    "static/media/Finance.jpg": "//mouhadiouf.github.io/portfolio/static/media/Finance.e186e06c.jpg",
+    "static/media/Header.css": "//mouhadiouf.github.io/portfolio/static/media/Header.e2b64c22.jpg",
+    "static/media/Newsweek.jpg": "//mouhadiouf.github.io/portfolio/static/media/Newsweek.05a70721.jpg",
+    "static/media/Restaurant.png": "//mouhadiouf.github.io/portfolio/static/media/Restaurant.a23d1fff.png",
+    "static/media/profile.jpg": "//mouhadiouf.github.io/portfolio/static/media/profile.1b85e870.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be5266cb.js",
+    "static/js/2.f56c261b.chunk.js",
+    "static/css/main.df2da710.chunk.css",
+    "static/js/main.a0a314b1.chunk.js"
+  ]
+}

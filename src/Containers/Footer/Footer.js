@@ -13,7 +13,7 @@ function Footer() {
         <a href="https://github.com/MouhaDiouf">
           <FaGithub />
         </a>
-        <a href="http://https://www.linkedin.com/in/mouhamadou-diouf-b7739714a/">
+        <a href="http://https://www.linkedin.com/in/mouha-diouf">
           <FaLinkedin />
         </a>
       </div>

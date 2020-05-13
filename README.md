@@ -21,9 +21,9 @@ Additional description about the project and its features.
 
 👤 **Mouhamadou Diouf**
 
-- Github: [@githubhandle](https://github.com/MouhaDiouf)
-- Twitter: [@twitterhandle](https://twitter.com/mouhamadiouf)
-- Linkedin: [linkedin](https://linkedin.com/mouhadiouf)
+- Github: [@gMouhaDiouf](https://github.com/MouhaDiouf)
+- Twitter: [@mouhamadiouf](https://twitter.com/mouhamadiouf)
+- Linkedin: [Mouhadiouf](https://linkedin.com/mouhadiouf)
 
 
 ## Show your support

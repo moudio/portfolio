@@ -2,7 +2,7 @@
 
 > My portfolio, showcasing my main work
 
-![screenshot](./src/pictures/portfolio_screenshot.png)
+![screenshot](./src/pictures/website_screenshot.png)
 
 Additional description about the project and its features.
 

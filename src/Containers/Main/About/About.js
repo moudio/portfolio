@@ -1,7 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './About.css';
 import { FaReact, FaJsSquare } from 'react-icons/fa';
-import { DiRuby, DiRor, DiHtml5, DiCss3 } from 'react-icons/di';
+import {
+  DiRuby, DiRor, DiHtml5, DiCss3,
+} from 'react-icons/di';
+
 function About({ picture }) {
   return (
     <>
@@ -31,5 +35,8 @@ function About({ picture }) {
     </>
   );
 }
+About.propTypes = {
+  picture: PropTypes.string.isRequired,
+};
 
 export default About;

@@ -1,15 +1,15 @@
 import './Main.css';
 import React from 'react';
 import Project from './Project/Project';
-import About from '../Main/About/About';
-import Work from '../Main/CTA/Work';
+import About from './About/About';
+import Work from './CTA/Work';
 import newsweek from '../../pictures/Newsweek.jpg';
 import blackJack from '../../pictures/Blackjack.jpg';
 import calculator from '../../pictures/Calculator.jpg';
 import battleship from '../../pictures/Battleship.jpg';
 import financeTracker from '../../pictures/Finance.jpg';
 import restaurant from '../../pictures/Restaurant.png';
-import profile from '../../pictures/profile.jpg';
+import profile from '../../pictures/profile_picture.jpg';
 import bookstore from '../../pictures/Bookstore.png';
 
 export default function Main() {
@@ -33,7 +33,8 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'JAVASCRIPT']}
             demo="https://mouhadiouf.github.io/BlackJack/"
             source="https://github.com/MouhaDiouf/BlackJack"
-          />{' '}
+          />
+          {' '}
           <Project
             title="React Calculator"
             description="A Simple Calculator Built With React"

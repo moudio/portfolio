@@ -27,7 +27,7 @@ export default function Header() {
             <span
               className="txt-type"
               data-wait="3000"
-              data-words='[" Mouhamadou", " a Developer", " a Passionate Learner"]'
+              data-words='[" Mouhamadou", " a Developer", " a Creator"]'
             />
           </h1>
         </div>

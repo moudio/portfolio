@@ -2,9 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Project.css';
 
-function Project({ title, picture, description, technologies, demo, source }) {
+function Project({
+  title, picture, description, technologies, demo, source,
+}) {
   let techs = [];
-  techs = technologies.map((el) => <li key={el}>{el}</li>);
+  techs = technologies.map(el => <li key={el}>{el}</li>);
   return (
     <div className="project">
       <div className="project-description">

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import { FaTwitter, FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
+import {
+  FaTwitter, FaGithub, FaLinkedin, FaHeart,
+} from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -30,7 +32,11 @@ function Footer() {
       </div>
       <div className="footer-text">
         <p>
-          Made with <FaHeart className="heart" /> using ReactJS
+          Made with
+          {' '}
+          <FaHeart className="heart" />
+          {' '}
+          using ReactJS
         </p>
       </div>
     </footer>

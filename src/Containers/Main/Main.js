@@ -3,6 +3,7 @@ import React from 'react';
 import Project from './Project/Project';
 import About from './About/About';
 import Work from './CTA/Work';
+import Links from './Links/Links';
 import newsweek from '../../pictures/Newsweek.jpg';
 import blackJack from '../../pictures/Blackjack.jpg';
 import calculator from '../../pictures/Calculator.jpg';
@@ -16,6 +17,7 @@ export default function Main() {
   return (
     <>
       <main>
+        <Links />
         <h2>Projects</h2>
         <div id="projects">
           <Project
@@ -33,8 +35,7 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'JAVASCRIPT']}
             demo="https://mouhadiouf.github.io/BlackJack/"
             source="https://github.com/MouhaDiouf/BlackJack"
-          />
-          {' '}
+          />{' '}
           <Project
             title="React Calculator"
             description="A Simple Calculator Built With React"

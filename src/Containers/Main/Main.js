@@ -9,7 +9,7 @@ import blackJack from '../../pictures/Blackjack.jpg';
 import calculator from '../../pictures/Calculator.jpg';
 import battleship from '../../pictures/Battleship.jpg';
 import financeTracker from '../../pictures/Finance.jpg';
-import restaurant from '../../pictures/Restaurant.png';
+import restaurant from '../../pictures/Restaurant.jpg';
 import profile from '../../pictures/profile_picture.jpg';
 import bookstore from '../../pictures/Bookstore.png';
 

@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Project.css';
 
-function Project({
-  title, picture, description, technologies, demo, source,
-}) {
+function Project({ title, picture, description, technologies, demo, source }) {
   let techs = [];
-  techs = technologies.map(el => <li>{el}</li>);
+  techs = technologies.map((el) => <li key={el}>{el}</li>);
   return (
     <div className="project">
       <div className="project-description">
@@ -43,7 +41,7 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  technologies: PropTypes.string.isRequired,
+  technologies: PropTypes.instanceOf(Array).isRequired,
   demo: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
 };

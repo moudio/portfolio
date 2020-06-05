@@ -1,6 +1,5 @@
 .project {
   display: flex;
-  background: white;
   max-width: 90%;
   margin: 30px auto;
   border: 1px solid black;
@@ -32,7 +31,8 @@
 }
 
 .project img {
-  width: 80%;
+  width: 95%;
+  margin: 0 auto;
   height: 400px;
 }
 
@@ -87,8 +87,17 @@
   margin: 10px;
 }
 
-@media screen and(min-width: 1100px) {
+@media (max-width: 1100px) {
   .project {
-    width: 40%;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-picture {
+    width: 100%;
+  }
+  .project-picture img {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 50px;
   }
 }

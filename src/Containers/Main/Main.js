@@ -41,15 +41,15 @@ export default function Main() {
             description="A Simple Calculator Built With React"
             picture={calculator}
             technologies={['HTML', 'CSS', 'JAVASCRIPT', 'REACT']}
-            demo="https://mouhadiouf.github.io/react_calculator/"
-            source="https://github.com/MouhaDiouf/react_calculator"
+            demo="https://mouhadiouf.github.io/react-calculator/"
+            source="https://github.com/MouhaDiouf/react-calculator"
           />
           <Project
             title="Battleship Game"
             description="The User Plays Against the Computer in a Battleship Game. The first to find all the ships wins"
             picture={battleship}
             technologies={['HTML', 'CSS', 'Javascript']}
-            demo="https://mouhadiouf.github.io/Battleship_JS/dist/"
+            demo="https://mouhadiouf.github.io/battleship/dist/"
             source="https://github.com/MouhaDiouf/Battleship_JS"
           />
           <Project

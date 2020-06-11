@@ -19,3 +19,10 @@
 .technologies-div {
   font-size: 60px;
 }
+
+@media (max-width: 850px) {
+  .text,
+  .specialize-text {
+    font-size: 18px;
+  }
+}

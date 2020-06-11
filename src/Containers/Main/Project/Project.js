@@ -3,16 +3,25 @@ import PropTypes from 'prop-types';
 import './Project.css';
 
 function Project({
-  title, picture, description, technologies, demo, source,
+  title,
+  picture,
+  description,
+  technologies,
+  demo,
+  source,
+  srcSetOne,
+  srcSetTwo,
+  srcSetThree,
+  srcSetFour,
 }) {
   let techs = [];
-  techs = technologies.map(el => <li key={el}>{el}</li>);
+  techs = technologies.map((el) => <li key={el}>{el}</li>);
   return (
     <div className="project">
       <div className="project-description">
         <h3 className="project-title">{title}</h3>
         <div className="description-content">
-          <p>{description}</p>
+          <p className="description">{description}</p>
           <div className="technologies">
             <ul>{techs}</ul>
           </div>
@@ -31,7 +40,23 @@ function Project({
         </div>
       </div>
       <div className="project-picture">
-        <img src={picture} alt="" />
+        <picture>
+          <source media="(max-width:200px)" srcSet={srcSetOne} />
+          <source
+            media="(min-width: 201px) and (max-width: 500px)"
+            srcSet={srcSetTwo}
+          />
+          <source
+            media="(min-width:501px) and(max-width: 695px)"
+            srcSet={srcSetThree}
+          />
+          <source
+            media="(min-width:696px) and(max-width: 1000px)"
+            srcSet={srcSetFour}
+          />
+
+          <img src={picture} alt="" />
+        </picture>
       </div>
     </div>
   );

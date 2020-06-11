@@ -28,8 +28,20 @@ header {
   font-size: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .hero h1 {
     font-size: 35px;
+  }
+}
+@media (max-width: 650px) {
+  .hero h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero h1 {
+    font-size: 15px;
+    width: 100%;
   }
 }

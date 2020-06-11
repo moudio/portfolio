@@ -5,11 +5,11 @@
 }
 
 #about-me {
-  width: 55%;
+  width: 85%;
   margin: 0 auto;
   background-color: white;
   font-size: 25px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 #about-me .text {

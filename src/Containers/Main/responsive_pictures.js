@@ -10,6 +10,8 @@ import finance200 from '../../pictures/responsive_pictures/finance_tracker/finan
 import finance574 from '../../pictures/responsive_pictures/finance_tracker/finance_574.png';
 import finance836 from '../../pictures/responsive_pictures/finance_tracker/finance_836.png';
 import finance1345 from '../../pictures/responsive_pictures/finance_tracker/finance_1345.png';
+import newsweek190 from '../../pictures/responsive_pictures/newsweek/newsweek_190.png';
+import newsweek716 from '../../pictures/responsive_pictures/newsweek/newsweek_716.png';
 
 export {
   restaurant200,
@@ -22,6 +24,8 @@ export {
   bookstore1117,
   finance200,
   finance574,
-  finance836,
   finance1345,
+  finance836,
+  newsweek190,
+  newsweek716,
 };

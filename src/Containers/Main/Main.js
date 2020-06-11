@@ -28,6 +28,7 @@ export default function Main() {
             technologies={['HTML', 'CSS']}
             demo="https://raw.githack.com/MouhaDiouf/newsweek_replica/development/index.html"
             source="https://github.com/MouhaDiouf/newsweek_replica"
+            srcSetOne={Pictures.newsweek716}
           />
           <Project
             title="Blackjack Game"

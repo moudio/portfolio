@@ -12,6 +12,7 @@ import financeTracker from '../../pictures/Finance.jpg';
 import restaurant from '../../pictures/Restaurant.jpg';
 import profile from '../../pictures/profile_picture.jpg';
 import bookstore from '../../pictures/Bookstore.png';
+import * as Pictures from './responsive_pictures';
 
 export default function Main() {
   return (
@@ -27,6 +28,7 @@ export default function Main() {
             technologies={['HTML', 'CSS']}
             demo="https://raw.githack.com/MouhaDiouf/newsweek_replica/development/index.html"
             source="https://github.com/MouhaDiouf/newsweek_replica"
+            srcSetOne={Pictures.newsweek716}
           />
           <Project
             title="Blackjack Game"
@@ -41,15 +43,15 @@ export default function Main() {
             description="A Simple Calculator Built With React"
             picture={calculator}
             technologies={['HTML', 'CSS', 'JAVASCRIPT', 'REACT']}
-            demo="https://mouhadiouf.github.io/react_calculator/"
-            source="https://github.com/MouhaDiouf/react_calculator"
+            demo="https://mouhadiouf.github.io/react-calculator/"
+            source="https://github.com/MouhaDiouf/react-calculator"
           />
           <Project
             title="Battleship Game"
             description="The User Plays Against the Computer in a Battleship Game. The first to find all the ships wins"
             picture={battleship}
             technologies={['HTML', 'CSS', 'Javascript']}
-            demo="https://mouhadiouf.github.io/Battleship_JS/dist/"
+            demo="https://mouhadiouf.github.io/battleship/dist/"
             source="https://github.com/MouhaDiouf/Battleship_JS"
           />
           <Project
@@ -59,6 +61,10 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'Ruby On Rails']}
             demo="https://finance-app-mo.herokuapp.com/"
             source="https://github.com/MouhaDiouf/finance-tracker/"
+            srcSetOne={Pictures.finance200}
+            srcSetTwo={Pictures.finance574}
+            srcSetThree={Pictures.finance836}
+            srcSetFour={Pictures.finance1345}
           />
           <Project
             title="Restaurant Page"
@@ -67,6 +73,10 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'Javascript', 'Webpack']}
             demo="https://mouhadiouf.github.io/restaurant-page/"
             source="https://github.com/MouhaDiouf/restaurant-page"
+            srcSetOne={Pictures.restaurant200}
+            srcSetTwo={Pictures.restaurant500}
+            srcSetThree={Pictures.restaurant862}
+            srcSetFour={Pictures.restaurant1000}
           />
           <Project
             title="Bookstore"
@@ -75,6 +85,9 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'Redux']}
             demo="https://mouhadiouf.github.io/redux-bookstore/"
             source="https://github.com/MouhaDiouf/redux-bookstore"
+            srcSetOne={Pictures.bookstore200}
+            srcSetTwo={Pictures.bookstore834}
+            srcSetThre={Pictures.bookstore1117}
           />
         </div>
         <About picture={profile} />

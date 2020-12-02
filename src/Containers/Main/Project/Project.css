@@ -133,3 +133,9 @@
     width: 50%;
   }
 }
+
+@media (max-width: 500px) {
+  .project-picture img {
+    height: 260px;
+  }
+}

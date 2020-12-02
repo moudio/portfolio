@@ -34,6 +34,7 @@ export default function Main() {
             ]}
             demo="https://appointcar.netlify.app/"
             source="https://github.com/MouhaDiouf/appointment"
+            srcSetOne={Pictures.appointcar860}
           />
           <Project
             title="NewsWeek Replica"

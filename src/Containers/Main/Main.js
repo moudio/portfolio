@@ -77,8 +77,7 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'Ruby On Rails']}
             demo="https://finance-app-mo.herokuapp.com/"
             source="https://github.com/MouhaDiouf/finance-tracker/"
-            srcSetOne={Pictures.finance200}
-            srcSetTwo={Pictures.finance574}
+            srcSetOne={Pictures.finance574}
             srcSetThree={Pictures.finance836}
             srcSetFour={Pictures.finance1345}
           />
@@ -90,9 +89,8 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'REACT', 'Redux']}
             demo="https://mouhadiouf.github.io/redux-bookstore/"
             source="https://github.com/MouhaDiouf/redux-bookstore"
-            srcSetOne={Pictures.bookstore200}
-            srcSetTwo={Pictures.bookstore834}
-            srcSetThre={Pictures.bookstore1117}
+            srcSetOne={Pictures.bookstore834}
+            srcSetThree={Pictures.bookstore1117}
           />
         </div>
         <About picture={profile} />

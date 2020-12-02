@@ -53,6 +53,7 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'JAVASCRIPT', 'REACT']}
             demo="https://hulu-mo.web.app"
             source="https://github.com/MouhaDiouf/hulu_clone"
+            srcSetOne={Pictures.hulu767}
           />
           <Project
             title="Covid Tracker"
@@ -61,6 +62,7 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'React']}
             demo="https://covid-tracker-mo.netlify.app/"
             source="https://github.com/MouhaDiouf/covid_tracker"
+            srcSetOne={Pictures.covid731}
           />
           <Project
             title="Battleship Game"

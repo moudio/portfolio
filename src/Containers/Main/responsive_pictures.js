@@ -14,6 +14,8 @@ import newsweek190 from '../../pictures/responsive_pictures/newsweek/newsweek_19
 import newsweek716 from '../../pictures/responsive_pictures/newsweek/newsweek_716.png';
 import appointcar860 from '../../pictures/responsive_pictures/appointcar/appointment_860.jpg';
 import appointcar588 from '../../pictures/responsive_pictures/appointcar/appointment_588.jpg';
+import covid731 from '../../pictures/responsive_pictures/covid/covid_tracker_731.png';
+import hulu767 from '../../pictures/responsive_pictures/hulu/hulu_767.jpg';
 
 export {
   restaurant200,
@@ -32,4 +34,6 @@ export {
   newsweek716,
   appointcar860,
   appointcar588,
+  covid731,
+  hulu767,
 };

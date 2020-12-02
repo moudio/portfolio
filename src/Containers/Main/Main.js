@@ -62,7 +62,8 @@ export default function Main() {
             technologies={['HTML', 'CSS', 'React']}
             demo="https://covid-tracker-mo.netlify.app/"
             source="https://github.com/MouhaDiouf/covid_tracker"
-            srcSetOne={Pictures.covid731}
+            srcSetOne={Pictures.covid557}
+            srcSetTwo={Pictures.covid731}
           />
           <Project
             title="Battleship Game"

@@ -15,6 +15,7 @@ import newsweek716 from '../../pictures/responsive_pictures/newsweek/newsweek_71
 import appointcar860 from '../../pictures/responsive_pictures/appointcar/appointment_860.jpg';
 import appointcar588 from '../../pictures/responsive_pictures/appointcar/appointment_588.jpg';
 import covid731 from '../../pictures/responsive_pictures/covid/covid_tracker_731.png';
+import covid557 from '../../pictures/responsive_pictures/covid/covid_tracker_557.png';
 import hulu767 from '../../pictures/responsive_pictures/hulu/hulu_767.jpg';
 
 export {
@@ -36,4 +37,5 @@ export {
   appointcar588,
   covid731,
   hulu767,
+  covid557,
 };

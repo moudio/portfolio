@@ -12,7 +12,8 @@ import finance836 from '../../pictures/responsive_pictures/finance_tracker/finan
 import finance1345 from '../../pictures/responsive_pictures/finance_tracker/finance_1345.png';
 import newsweek190 from '../../pictures/responsive_pictures/newsweek/newsweek_190.png';
 import newsweek716 from '../../pictures/responsive_pictures/newsweek/newsweek_716.png';
-import appointcar860 from '../../pictures/responsive_pictures/appointcar/appointcar_860.jpg';
+import appointcar860 from '../../pictures/responsive_pictures/appointcar/appointment_860.jpg';
+import appointcar588 from '../../pictures/responsive_pictures/appointcar/appointment_588.jpg';
 
 export {
   restaurant200,
@@ -30,4 +31,5 @@ export {
   newsweek190,
   newsweek716,
   appointcar860,
+  appointcar588,
 };

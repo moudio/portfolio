@@ -15,7 +15,7 @@ function Project({
   srcSetFour,
 }) {
   let techs = [];
-  techs = technologies.map((el) => <li key={el}>{el}</li>);
+  techs = technologies.map((el, idx) => <li key={idx}>{el}</li>);
   return (
     <div className="project">
       <div className="project-description">

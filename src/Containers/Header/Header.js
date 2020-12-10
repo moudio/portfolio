@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import Resume from '../../Resume.pdf';
 import './Header.scss';
 import profile from '../../pictures/profile_picture.jpg';
 
@@ -39,7 +39,9 @@ export default function Header() {
               <a href="#about-me">About</a>
             </li>
             <li>
-              <a href="#about-me">Resume</a>
+              <a href={Resume} target="_blank" rel="noreferrer">
+                Resume
+              </a>
             </li>
           </ul>
         </nav>
